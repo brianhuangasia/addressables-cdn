@@ -7,8 +7,8 @@ git config core.ignorecase false
 :: Step 2: 添加文件（包括修改、删除）
 git add -A
 
-:: Step 3: 提交更新
-git commit -m "更新 Addressables CDN 内容"
+:: Step 3: 提交更新"说明"
+git commit -m "Update Addressables CDN Contents"
 
 :: Step 4: 推送到远程 gh-pages 分支
 git push origin gh-pages
